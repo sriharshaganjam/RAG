@@ -3,9 +3,11 @@ import os
 import requests
 from PyPDF2 import PdfReader
 from io import StringIO
+pip install streamlit PyPDF2 requests
+
 
 # Deepseek API credentials (replace with your actual API key)
-DEEPSEEK_API_KEY = "your_deepseek_api_key"
+DEEPSEEK_API_KEY = "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"
 DEEPSEEK_SUMMARIZATION_URL = "https://api.deepseek.com/v1/summarize"
 DEEPSEEK_TEXT_GENERATION_URL = "https://api.deepseek.com/v1/generate"
 

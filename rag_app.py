@@ -3,7 +3,6 @@ import os
 import requests
 from PyPDF2 import PdfReader
 from io import StringIO
-pip install streamlit PyPDF2 requests
 
 
 # Deepseek API credentials (replace with your actual API key)
